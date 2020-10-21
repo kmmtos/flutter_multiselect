@@ -38,6 +38,7 @@ class SelectionModal extends StatefulWidget {
   final Color searchBoxFillColor;
   final IconData searchBoxIcon;
   final String searchBoxToolTipText;
+
   SelectionModal(
       {this.filterable,
       this.dataSource,
@@ -252,7 +253,8 @@ class _SelectionModalState extends State<SelectionModal> {
               children: <Widget>[
                 new Text(
                   widget.selectedOptionsInfoText ??
-                      'Currently selected ${selectedOptions.length} items (tap to remove)', // use languageService here
+                      'Currently selected ${selectedOptions.length} items (tap to remove)',
+                  // use languageService here
                   style: TextStyle(
                       color:
                           widget.selectedOptionsInfoTextColor ?? Colors.black87,
@@ -282,7 +284,10 @@ class _SelectionModalState extends State<SelectionModal> {
     _searchresult.forEach((item) {
       options.add(ListTile(
           selected: true,
-          title: Text(item['text'] ?? ''),
+          title: Text(
+            item['text'] ?? '',
+            style: TextStyle(color: Colors.black),
+          ),
           leading: Transform.scale(
             child: Icon(
                 item['checked']
