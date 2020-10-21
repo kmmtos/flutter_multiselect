@@ -6,12 +6,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cdbb824-189a-4490-b9a8-0c47e0de5c06" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_multiselect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_multiselect.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selection_modal.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/selection_modal.dart" afterDir="false" />
+    <list default="true" id="1cdbb824-189a-4490-b9a8-0c47e0de5c06" name="Default" comment="Fix - checkbox item color">
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,8 +114,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544121429706</updated>
-      <workItem from="1603297175688" duration="127000" />
+      <workItem from="1603297175688" duration="349000" />
     </task>
+    <task id="LOCAL-00001" summary="Fix - checkbox item color">
+      <created>1603297319143</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603297319143</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,5 +139,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix - checkbox item color" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix - checkbox item color" />
   </component>
 </project>
